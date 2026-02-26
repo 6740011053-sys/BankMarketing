@@ -1,1 +1,57 @@
-<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/39d2b615-a247-435f-bd48-14e6f7903692/page/8CBqF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bank Marketing Dashboard</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(to right, #f6d365, #fda085);
+      font-family: Arial, sans-serif;
+    }
+
+    .dashboard-container {
+      width: 100%;
+      height: 100vh;   /* เต็มหน้าจอ */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    iframe {
+      width: 95%;
+      height: 95vh;   /* สูงเกือบเต็มจอ */
+      border-radius: 20px;
+      border: none;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>📊 Bank Marketing Dashboard</h1>
+
+  <div class="dashboard-container">
+    <iframe 
+      src="https://lookerstudio.google.com/embed/reporting/39d2b615-a247-435f-bd48-14e6f7903692/page/8CBqF"
+      allowfullscreen
+      sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+    </iframe>
+  </div>
+
+</body>
+</html>
